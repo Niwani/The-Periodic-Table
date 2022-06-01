@@ -1,0 +1,303 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(228, 228, 187, 0.61);
+    /* padding-left: 50px; */
+    /* padding-right: 250px;
+    padding-bottom: 100px; */
+}
+
+.topic {
+    font-size: large;
+    text-align: center;
+}
+
+.periodic {
+    position: relative;
+    height: 200px;
+    margin-right: -1px;
+    text-shadow: none;
+    /* transform: translate(100px 20px); */
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+.periodic-row {
+    clear: both;
+    height: 10%;
+    
+}
+
+.cell {
+    float: left;
+    position: relative;
+    width: 5.35%;
+    margin-left: 0.2%;
+    height: 100%;
+
+}
+
+.element {
+    /* position: absolute; */
+    box-sizing: border-box;
+    border: 1px solid blue ;
+    /* border-width: 5px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px yellow;
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+}
+
+.atom-num {
+    text-align: left;
+    margin-left: 0.7px;
+}
+
+.symbol {
+    font-size: 160%;
+}
+
+.name {
+    font-size: small;
+}
+
+.periodic-row2 {
+    clear: both;
+    height: 10%;
+    margin-top: 4.7%;
+}
+
+.cell2-2 {
+    float: left;
+    position: relative;
+    width: 5.35%;
+    height: 100%;
+    margin-left: 0.2%;
+}
+
+.periodic-row3 {
+    clear: both;
+    height: 10%;
+    margin-top: 4.85%;
+}
+
+
+.periodic-row4 {
+    clear: both;
+    height: 10%;
+    margin-top: 4.7%;
+}
+
+.periodic-row5 {
+    clear: both;
+    height: 10%;
+    margin-top: 4.75%;
+}
+
+.periodic-row7 {
+    clear: both;
+    height: 10%;
+    margin-top: 6%;
+}
+
+.periodic-row8 {
+    clear: both;
+    height: 10%;
+    margin-top: 5%;
+}
+
+.alkaliMetals {
+    /* position: absolute; */
+    box-sizing: border-box;
+    border: 1px solid blue ;
+    /* border-width: 5px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px yellow;
+    text-align: center;
+    background-color: #ffaa;
+    width: 100%;
+}
+
+.alkalineEarthMetals {
+    /* position: absolute; */
+    box-sizing: border-box;
+    border: 1px solid purple ;
+    /* border-width: 5px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px yellow;
+    text-align: center;
+    background-color: pink;
+    width: 100%;
+}
+
+.transitionMetals {
+    /* position: absolute; */
+    box-sizing: border-box;
+    border: 1px solid purple ;
+    /* border-width: 5px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px yellow;
+    text-align: center;
+    background-color: rgb(217, 241, 217);
+    width: 100%;
+}
+
+.lanthanides {
+    /* position: absolute; */
+    box-sizing: border-box;
+    border: 1px solid purple ;
+    /* border-width: 5px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px yellow;
+    text-align: center;
+    background-color: rgb(247, 160, 247);
+    width: 100%;
+}
+
+.actinides {
+    /* position: absolute; */
+    box-sizing: border-box;
+    border: 1px solid purple ;
+    /* border-width: 5px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px yellow;
+    text-align: center;
+    background-color: rgb(243, 190, 245);
+    width: 100%;
+}
+
+.post-transitionMetals {
+    /* position: absolute; */
+    box-sizing: border-box;
+    border: 1px solid purple ;
+    /* border-width: 5px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px yellow;
+    text-align: center;
+    background-color: rgb(230, 223, 223);
+    width: 100%;
+}
+
+.metalloids {
+    /* position: absolute; */
+    box-sizing: border-box;
+    border: 1px solid purple ;
+    /* border-width: 5px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px yellow;
+    text-align: center;
+    background-color: rgb(197, 168, 143);
+    width: 100%;
+} 
+
+.nonMetals {
+    /* position: absolute; */
+    box-sizing: border-box;
+    border: 1px solid purple ;
+    /* border-width: 5px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px yellow;
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+}
+
+.nobleGases {
+    /* position: absolute; */
+    box-sizing: border-box;
+    border: 1px solid purple ;
+    /* border-width: 5px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px yellow;
+    text-align: center;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+.halogens {
+    /* position: relative; */
+    box-sizing: border-box;
+    border: 1px solid purple ;
+    /* border-width: 5px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px yellow;
+    text-align: center;
+    background-color: rgb(143, 186, 197);
+    width: 100%;
+}
+
+.element:hover {
+    transform: scale(1.3);
+    background-color: azure;
+    z-index: 9999;
+    position: relative;
+}
+
+.element:hover:after {
+    opacity: 2px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul li::before {
+    content: "\2022";
+    color: aqua;
+    display: inline-block;
+    width: 1em;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+ul li.lanthani::before {
+    content: "\2022";
+    color: rgb(247, 160, 247);
+}
+
+ul li.alkaliMetal::before {
+    content: "\2022";
+    color: #ffaa;
+}
+
+ul li.halogen::before {
+    content: "\2022";
+    color: rgb(143, 186, 197);   
+}
+
+ul li.nobleGas::before {
+    content: "\2022";
+    color: aquamarine;
+}
+
+ul li.actinid::before {
+    content: "\2022";
+    color: rgb(243, 190, 245);
+}
+
+ul li.metalloid::before {
+    content: "\2022";
+    color: rgb(197, 168, 143);
+}
+
+ul li.transition::before {
+    content: "\2022";
+    color: rgb(217, 241, 217);
+}
+
+ul li.postTransition::before {
+    content: "\2022";
+    color: rgb(230, 223, 223);
+}
+
+ul li.AlkalineEarthMetal::before {
+    content: "\2022";
+    color: pink;
+}
+
+li{
+    float: left;
+    margin-left: 10%;
+    margin-right: 10px;
+}
